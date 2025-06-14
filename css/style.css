@@ -2,7 +2,7 @@
 body {
   background-color: #000044;
   color: #ffffff;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'monaco, Consolas, "Lucida Console", monospace';
   margin: 0;
   padding: 0;
   display: flex;
