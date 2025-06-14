@@ -1,0 +1,112 @@
+/* page format */
+body {
+  background-color: #20204b;
+  color: #ffffff;
+  font-family: 'Libre Bodoni', serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.title-wrapper {
+  padding-top: 1.5rem;
+}
+
+.title-wrapper {
+  position: sticky;
+  top: 0;
+  background-color: #20204b;
+  background: linear-gradient( to bottom, #20204b 60%, rgba(32, 32, 75, 0.8) 80%, rgba(32, 32, 75, 0) 100%);
+
+  z-index: 1000;
+  padding: 1rem 2rem;
+}
+
+/* title styling */
+header {
+  padding-top: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+/* navbar styling */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* link appearance */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: filter 0.3s ease;
+}
+
+/* blur effect on siblings when hovering */
+.navbar a:hover {
+  filter: none; /* Keep the hovered one clear */
+}
+
+/* center content vertically and horizontally */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* project links */
+.project-section {
+  display: flex;
+  flex-direction: row;      /* forces horizontal layout */
+  justify-content: center;  /* centers cards within section */
+  gap: 2rem;
+  margin: 4rem 0;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #22222243;
+  color: white;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Libre Bodoni', serif;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+/* footer at bottom */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}

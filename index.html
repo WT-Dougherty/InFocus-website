@@ -4,18 +4,33 @@
   <head>
     <meta charset="UTF-8" />
     <title>In Focus</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
   </head>
 
   <body>
+    <div class="title-wrapper">
+        <!-- the page title -->
+        <header>
+            <h1 class="site-title">InFocus</h1>
+        </header>
 
-    <main>
-      <h1>InFocus</h1>
-      <p>This site is under construction — check back soon.</p>
+        <!-- the navigation bar -->
+        <nav class="navbar">
+            <a href="index.html">Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </div>
+
+    <main class="project-section">
+        <a class="project-card" href="/projects/project-viewer.html?file=physicsengine.md">Project 1</a>
+        <div class="project-card">Project 2</div>
+        <div class="project-card">Project 3</div>
+        <div class="project-card">Project 4</div>
     </main>
 
     <footer>
-      <p>&copy; Will Dougherty, 2025</p>
+        <p>&copy; Will Dougherty, 2025</p>
     </footer>
 
     <script src="js/script.js"></script>

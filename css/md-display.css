@@ -1,0 +1,33 @@
+@import url('../css/base.css');
+
+.markdown-card {
+  background-color: #22222243;
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  margin: 5rem auto;
+  padding: 3rem;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.markdown-card h1,
+.markdown-card h2,
+.markdown-card h3,
+.markdown-card p,
+.markdown-card li,
+.markdown-card code {
+  color: white;
+}
+
+.markdown-card pre {
+  background-color: #22222243;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.markdown-card code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+}
