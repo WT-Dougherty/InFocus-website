@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Viewer</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project Viewer</title>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
 
-  <!-- Highlight.js for code highlighting -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
+        <!-- Highlight.js for code highlighting -->
+        <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/github-dark.min.css">
 
-  <!-- Custom Markdown display styles -->
-  <link rel="stylesheet" href="../css/md-display.css" />
-</head>
-<body>
-  <div class="title-wrapper">
-        <!-- the page title -->
-        <header>
-            <h1 class="site-title">InFocus</h1>
-        </header>
+        <!-- Custom Markdown display styles -->
+        <link rel="stylesheet" href="../css/md-display.css" />
+    </head>
 
-        <!-- the navigation bar -->
-        <nav class="navbar">
-            <a href="../index.html">Projects</a>
-            <a href="../contact.html">Contact Me</a>
-        </nav>
-    </div>
+    <body>
+        <div class="title-wrapper">
+            <!-- the page title -->
+            <header>
+                <h1 class="site-title">InFocus</h1>
+            </header>
 
-  <div class="markdown-card" id="markdown-content">
-    Loading project...
-  </div>
+            <!-- the navigation bar -->
+            <nav class="navbar">
+                <div class="nav-disabled">Projects</div>
+                <div class="nav-disabled">About</div>
+            </nav>
+        </div>
 
-  <!-- Marked.js for Markdown rendering -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="../js/md-logic.js"></script>
-</body>
+        <div id="markdown-wrapper">
+            <div id="markdown-card">
+                <div class="back-arrow" onclick="window.history.back()">←Back</div>
+                <div id="markdown-content"></div>
+            </div>
+        </div>
+
+        <!-- Marked.js for Markdown rendering -->
+        <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/build/highlight.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="../js/md-logic.js"></script>
+    </body>
 </html>

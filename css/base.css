@@ -19,7 +19,6 @@ body {
   top: 0;
   background-color: #20204b;
   background: linear-gradient( to bottom, #20204b 60%, rgba(32, 32, 75, 0.8) 80%, rgba(32, 32, 75, 0) 100%);
-
   z-index: 1000;
   padding: 1rem 2rem;
 }
