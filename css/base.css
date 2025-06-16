@@ -62,15 +62,7 @@ header {
   filter: none; /* Keep the hovered one clear */
 }
 
-/* center content vertically and horizontally */
-main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+/*REMOVED MAIN*/
 
 /* project links */
 .project-section {
@@ -107,5 +99,10 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
+  gap: 24px;
   font-size: 0.9rem;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
 }

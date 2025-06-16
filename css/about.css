@@ -1,0 +1,32 @@
+@import url(base.css);
+
+.about-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #22222243;
+    backdrop-filter: blur(6px);
+
+    margin: 1rem auto;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+    border-radius: 15px;
+    max-width: 600px;
+    height: 410px;
+    padding: 2.5rem;
+    z-index: 1500;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.socials:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.socials {
+    transition: transform 0.2s ease;
+}
