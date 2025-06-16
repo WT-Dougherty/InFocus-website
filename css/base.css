@@ -1,4 +1,3 @@
-/* page format */
 body {
   background-color: #20204b;
   color: #ffffff;
@@ -23,7 +22,6 @@ body {
   padding: 1rem 2rem;
 }
 
-/* title styling */
 header {
   padding-top: 2rem;
   text-align: center;
@@ -37,7 +35,6 @@ header {
   margin: 0;
 }
 
-/* navbar styling */
 .navbar {
   display: flex;
   justify-content: center;
@@ -48,7 +45,6 @@ header {
   z-index: 100;
 }
 
-/* link appearance */
 .navbar a {
   color: white;
   text-decoration: none;
@@ -57,18 +53,10 @@ header {
   transition: filter 0.3s ease;
 }
 
-/* blur effect on siblings when hovering */
-.navbar a:hover {
-  filter: none; /* Keep the hovered one clear */
-}
-
-/*REMOVED MAIN*/
-
-/* project links */
 .project-section {
   display: flex;
-  flex-direction: row;      /* forces horizontal layout */
-  justify-content: center;  /* centers cards within section */
+  flex-direction: row;
+  justify-content: center;
   gap: 2rem;
   margin: 4rem 0;
   flex-wrap: wrap;
@@ -95,7 +83,6 @@ header {
   transform: scale(1.02);
 }
 
-/* footer at bottom */
 footer {
   text-align: center;
   padding: 1rem;

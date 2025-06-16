@@ -22,12 +22,12 @@ marked.setOptions({
 // Get the ?file=... value from the URL
 var file = new URLSearchParams(window.location.search).get('file');
 
-// Fetch and render the Markdown file
+// Fetch & render the Markdown file
 if (file) {
   fetch(file)
     .then(handleMarkdownResponse)
     .then(convertMarkdownToHtml)
     .catch(showError);
 } else {
-  document.getElementById('markdown-content').innerText = 'No file specified.';
+  document.getElementById('markdown-content').innerText = 'Project Coming Soon';
 }
