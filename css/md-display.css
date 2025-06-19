@@ -1,14 +1,5 @@
 @import url(base.css);
 
-.nav-disabled {
-    display: inline-block;
-    font-size: 1.1rem;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    cursor: default;
-}
-
 .back-arrow {
     position: sticky;
     top: 60px;
@@ -17,7 +8,7 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     opacity: 0.7;
-    z-index: 2;
+    z-index: 1000;
     transition: opacity 0.2s ease;
 }
 
@@ -26,7 +17,7 @@
 }
 
 .markdown-card {
-    background: #222222f7;
+    background: #484848b0;
     border-radius: 15px;
     margin: 5rem auto;
     padding: 3rem;
@@ -44,7 +35,7 @@
 .markdown-card h3,
 .markdown-card p,
 .markdown-card li {
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .markdown-card pre {
@@ -69,11 +60,11 @@
 }
 
 pre code {
-    background-color: #00000000;
+    background-color: black;
 }
 
 .hljs {
-    background: #00000000;
+    background: black;
     border-left: 2px solid #ccc;
     border-radius: 7px;
     overflow-x: auto;

@@ -1,5 +1,5 @@
 body {
-  background-color: #20204b;
+  background-color: #242424;
   color: #ffffff;
   font-family: 'Libre Bodoni', serif;
   margin: 0;
@@ -10,14 +10,8 @@ body {
 }
 
 .title-wrapper {
-  padding-top: 1.5rem;
-}
-
-.title-wrapper {
   position: sticky;
-  top: 0;
-  background-color: #20204b;
-  background: linear-gradient( to bottom, #20204b 60%, rgba(32, 32, 75, 0.8) 80%, rgba(32, 32, 75, 0) 100%);
+  background: linear-gradient( to bottom, #242424 60%, #242424a9 80%, #24242400 100%);
   z-index: 1000;
   padding: 1rem 2rem;
 }
@@ -53,19 +47,22 @@ header {
   transition: filter 0.3s ease;
 }
 
-.project-section {
+.card-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
   margin: 4rem 0;
-  flex-wrap: wrap;
   padding: 20px;
 }
 
-.project-card {
-  background-color: #22222243;
+.card {
+  background-color: #484848;
   color: white;
+  font-size: 1.1rem;
+  font-family: 'Libre Bodoni', serif;
+  text-decoration: none;
   width: 400px;
   height: 300px;
   border-radius: 10px;
@@ -73,13 +70,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Libre Bodoni', serif;
-  font-size: 1.1rem;
   transition: transform 0.3s ease;
   flex-shrink: 0;
 }
 
-.project-card:hover {
+.card:hover {
   transform: scale(1.02);
 }
 
@@ -88,8 +83,13 @@ footer {
   padding: 1rem;
   gap: 24px;
   font-size: 0.9rem;
-  position: sticky;
+  position: bottom;
   display: flex;
   justify-content: center;
   z-index: 1000;
+}
+
+.writeup {
+  width: 900px;
+  height: 100px;
 }
