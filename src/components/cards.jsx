@@ -22,8 +22,8 @@ export function AboutCard() {
 export function ProjectCards() {
     return (
         <div className="card-section">
-            <Link className="card project" to={'/projects'}>
-                Projects Coming Soon...
+            <Link to="/viewer/CheckersEngine.md" className="card writeup">
+                A Checkers Engine
             </Link>
         </div>
     );
