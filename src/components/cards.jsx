@@ -32,6 +32,9 @@ export function ProjectCards() {
 export function WriteupCards() {
     return (
         <main className="card-section">
+            <Link to="/viewer/BuildingInFocus.md" className="card writeup">
+                Building InFocus
+            </Link>
             <Link to="/viewer/BB84.md" className="card writeup">
                 BB84: Shor's Kryptonite?
             </Link>
