@@ -23,27 +23,27 @@
 
 /* linking cards (not markdown display */
 .about-card {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #484848b0;
-    backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #484848b0;
+  backdrop-filter: blur(6px);
 
-    margin: 1rem auto;
-    margin-top: 2rem;
+  margin: 1rem auto;
+  margin-top: 2rem;
 
 
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    text-decoration: none;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-decoration: none;
 
-    border-radius: 15px;
-    max-width: 600px;
-    height: 390px;
-    padding: 2.5rem;
-    z-index: 1500;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  max-width: 600px;
+  height: 390px;
+  padding: 2.5rem;
+  z-index: 1500;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 .card-section {
   display: flex;

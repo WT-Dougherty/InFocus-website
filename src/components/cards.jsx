@@ -22,7 +22,7 @@ export function AboutCard() {
 export function ProjectCards() {
     return (
         <div className="card-section">
-            <Link to="/viewer/CheckersEngine.md" className="card writeup">
+            <Link to="/viewer/CheckersEngine.md" className="card project">
                 A Checkers Engine
             </Link>
         </div>
