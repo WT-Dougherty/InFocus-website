@@ -22,8 +22,8 @@ export function AboutCard() {
 export function ProjectCards() {
     return (
         <div className="card-section">
-            <Link to="/viewer/CheckersEngine.md" className="card project">
-                A Checkers Engine
+            <Link to="/viewer/RayTracer.md" className="card project">
+                Ray Tracer
             </Link>
         </div>
     );
@@ -77,7 +77,7 @@ export function MarkdownCard({ filename }) {
 
     return (
         <div className="markdown-card" >
-            <div className="back-arrow" onClick={() => window.history.back()}>←Back</div>
+            <div className="back-arrow" onClick={() => window.history.back().back()}>←Back</div>
             <div id="markdown-content" dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
     );

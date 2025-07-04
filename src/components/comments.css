@@ -1,0 +1,126 @@
+.comment-card {
+    background: #484848b0;
+    border-radius: 15px;
+    padding: 3rem;
+    position: relative;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    margin: 0px 50px 50px 50px;
+    backdrop-filter: blur(3px);
+}
+
+/* comments */
+.comment {
+    border-left: 5px solid rgb(89, 89, 89);
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    margin-bottom: 15px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label .name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.label .date {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: 400;
+    white-space: pre;
+}
+
+.comment .text {
+    margin-left: 0;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+/* comment input */
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.input .name {
+    padding: 12px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input .name:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.input .name::placeholder {
+    color: #a0a0a0;
+}
+
+.input .text {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 16px;
+    min-height: 100px;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+}
+
+.input .text:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.input .text::placeholder {
+    color: #a0a0a0;
+}
+
+.input .submit {
+    padding: 12px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+}
+
+.input .submit:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+}
+
+.input .submit:active {
+    transform: translateY(0);
+    background: rgba(255, 255, 255, 0.2);
+}

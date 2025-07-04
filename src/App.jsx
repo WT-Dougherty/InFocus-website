@@ -9,7 +9,8 @@ import { MD_Viewer } from './pages/md_viewer.jsx';
 // Route wrapper to pass URL param to MdViewer
 function MdRouteWrapper() {
   const { filename } = useParams();
-  return <MD_Viewer filename={filename} />;
+  const postID = filename.replace(/\.md$/, '');
+  return <MD_Viewer filename={filename} postID={postID}/>;
   
 }
 
