@@ -33,15 +33,15 @@
   margin-top: 2rem;
 
 
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 1px;
   text-decoration: none;
 
   border-radius: 15px;
   max-width: 600px;
-  height: 390px;
-  padding: 2.5rem;
+  height: auto;
+  padding: 5vw;
   z-index: 1500;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
@@ -61,8 +61,6 @@
   font-size: 1.1rem;
   font-family: 'Libre Bodoni', serif;
   text-decoration: none;
-  width: 400px;
-  height: 300px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   display: flex;
@@ -74,8 +72,12 @@
 .card:hover {
   transform: scale(1.02);
 }
+.project {
+  width: 400px;
+  height: 300px;
+}
 .writeup {
-  width: 900px;
+  width: 80vw;
   height: 100px;
 }
 
@@ -165,4 +167,18 @@ footer {
 }
 .socials {
     transition: transform 0.2s ease;
+}
+@media (max-width: 600px) {
+  #markdown-content {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  .back-arrow {
+    position: fixed;
+    padding-bottom: 50px;
+  }
 }

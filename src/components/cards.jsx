@@ -13,7 +13,7 @@ export function AboutCard() {
             My name is Will Dougherty, and I'm a software engineer based in Boston, MA.
             This website is intended to be a place where I can showcase my work and personal projects.
             <br /><br />Full-scale projects can be found in the Projects section, and shorter pieces of work are in the Writeups section.
-            The site is called InFocus because I always aim to present my ideas with clarity and attention to detail- in other words, in focus.
+            The site is called InFocus because I've aimed to put my ideas and who I am as a person into focus in creating this page.
             <br /><br />I've linked my GitHub and LinkedIn below- feel free to check them out, and reach out to me with any questions.
         </div>
     );

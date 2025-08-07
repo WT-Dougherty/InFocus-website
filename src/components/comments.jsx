@@ -44,7 +44,7 @@ function AddComment({ postID, onCommentSubmit }) {
   const [comment, setComment] = useState("");
 
   const handleSubmit = () => {
-    const date = new Date().toISOString(); // Full ISO timestamp for sorting
+   const date = new Date().toISOString(); // Full ISO timestamp for sorting
     const newComment = {
       "name": name,
       "date": date,

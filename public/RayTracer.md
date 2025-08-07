@@ -2,7 +2,7 @@
 <img src='8kRayTrace.jpg' style="width:100%;">
 
 # Implementation:
-This is a large project with lots of classes, and there are many intricicies that I could discuss. My goal in this section is to give a general overview (without going too much into specific detail) of how components of the ray tracer interact to generate a final image.
+This is a large project with lots of classes, and there are many intricacies that I could discuss. My goal in this section is to give a general overview (without going too much into specific detail) of how components of the ray tracer interact to generate a final image.
 
 I began by implementing a 3D vector class. This class was highly versatile: I used it to represent vectors, points, and colors. Colors in a digital image are typically represented using red, green, and blue (RGB) components, each ranging from 0 to 1. So a 3D vector with components in the range [0,1] could represent a color just as easily as a direction or position in space. The vector class included a variety of member functions—such as computing length and normalization—as well as numerous operator overloads to simplify expressions involving vector arithmetic.
 
